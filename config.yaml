@@ -1,0 +1,28 @@
+# B25061 RENT ASKED% Vacant-for-rent and rented, not occupied housing units
+# 001E: Total
+# 002E: Total%Less than $100
+# 003E: Total%$100 to $149
+# 004E: Total%$150 to $199
+# 005E: Total%$200 to $249
+# 006E: Total%$250 to $299
+# 007E: Total%$300 to $349
+# 008E: Total%$350 to $399
+# 009E: Total%$400 to $449
+var: ['B25061_001E',
+      'B25061_002E',
+      'B25061_003E',
+      'B25061_004E',
+      'B25061_005E',
+      'B25061_006E',
+      'B25061_007E',
+      'B25061_008E',
+      'B25061_009E',]
+year: 2019
+# Nebraska
+state_number: 31
+db_info:
+  host: acs-db.mlpolicylab.dssg.io
+  port: 5432
+  user: mlpp_student
+  password: CARE-horse-most
+  database: acs_data_loading
